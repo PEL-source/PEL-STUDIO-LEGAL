@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pages légales officielles des jeux édités par PEL Studio.">
+  <title>PEL Studio — Informations légales</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f1412;
+      --fg: #eef2ef;
+      --muted: #a7b3ab;
+      --card: #171d1a;
+      --accent: #3d9b6a;
+      --link: #6ecf9a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: radial-gradient(1200px 600px at 15% -10%, #1a2a22 0%, var(--bg) 55%);
+      color: var(--fg);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1rem 3rem;
+    }
+    h1 {
+      font-size: clamp(1.6rem, 5vw, 2.1rem);
+      margin: 0 0 0.4rem;
+    }
+    .lead { color: var(--muted); margin: 0 0 1.5rem; }
+    .card {
+      background: color-mix(in srgb, var(--card) 92%, black);
+      border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+      border-radius: 16px;
+      padding: 1.15rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .card h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.15rem;
+    }
+    ul { margin: 0; padding-inline-start: 1.2rem; }
+    a { color: var(--link); }
+    .soon { color: var(--muted); font-size: 0.95rem; margin: 0; }
+    footer {
+      margin-top: 2rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PEL Studio</h1>
+    <p class="lead">Espace public des informations légales des jeux édités par PEL Studio (entreprise individuelle PERIO).</p>
+
+    <section class="card" aria-labelledby="demineur">
+      <h2 id="demineur">Démineur Mobile</h2>
+      <ul>
+        <li><a href="demineur/confidentialite/">Politique de confidentialité</a></li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="pel">
+      <h2 id="pel">Predator Eleven League</h2>
+      <p class="soon">Documents à venir.</p>
+    </section>
+
+    <footer>
+      Contact :
+      <a href="mailto:contact.predatorelevenleague@gmail.com">contact.predatorelevenleague@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
